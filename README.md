@@ -2,11 +2,10 @@ webssh
 ====================
 
 
-WebSSH is a simple web project which support login linux server with explorer.
+WebSSH 是一个能够通过浏览器登录Linux机器实现浏览器拥有终端操作的web项目
+授权: `MIT` (see LICENSE)
 
-License: `MIT` (see LICENSE)
-
-Information
+安装信息
 -----------
 
 > 1.git clone https://github.com/xsank/webssh.git
@@ -15,11 +14,11 @@ Information
 
 > 3.python main.py
 
-> 4.open your explorer and input your data then connect,the server init port is `9527`,
-> you can modify it in `webssh.conf` file
+> 4.打开浏览器输入地址即可访问，默认端口为`9527`,
+> 当然默认端口你可通过`webssh.conf`进行修改
 
 
-Preview
+效果预览
 -------
 <div align="center">
     <img src="https://raw.githubusercontent.com/xsank/webssh/master/preview/webssh.png" width = "600" height = "377" alt="login" />
@@ -35,9 +34,15 @@ Preview
 </div>
 
 
-Others
+其他
 ------
-Now the webssh support `linux` `mac` and `windows` OS.
-Please let me know if you meet any other problems.
+当前webssh项目已经支持`linux` `mac` and `windows`平台.
+如果使用的过程中发现什么问题，请连续我。
 
+作者
+------
 Email:xsank@foxmail.com
+
+译者
+-----
+Email:luomgf@163.com
